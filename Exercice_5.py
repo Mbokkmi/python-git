@@ -4,4 +4,6 @@ longueur= float(input("Donner la longueur : "))
 largeur= float(input("Donner la largeur : "))
 perimetre=(longueur+largeur)*2
 surface=(longueur*largeur)
-print(f"le perimetre est {perimetre} est la surface est {surface}")
+diagonal=(longueur*longueur)+(largeur*largeur)
+racine_diagonal = diagonal**0.5
+print(f"le perimetre est : {perimetre} et la surface est : {surface} et le diagonale est : {racine_diagonal}  ")
